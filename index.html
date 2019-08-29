@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Directions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="searchRow" class="row">
+        <h1>Directions from Point A to Point B</h1>
+        <form>
+            <label>Origin</label><br>
+            <input id="origin" type="text" name="origin"><br>
+            <label>Destination</label><br>
+            <input id="destination" type="text" name="destination"><br>
+            <input class="button" id="submit" type="submit" style="font-family: 'Noto Serif TC', serif">
+        </form>
+        <div class="col-1">
+            <h2>Results</h2>
+            <div id="resultsContainer"></div>
+        </div>
+        <div id="column" class="col-2">
+                <h2>Map</h2>
+                <p>Placeholder</p>
+                <!-- <div id="map"></div> -->
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgFFuN9ajY-0k6fVbx9OWQdE84Cdk5RdU"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
