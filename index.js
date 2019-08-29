@@ -2,13 +2,6 @@ var searchDirection = "https://maps.googleapis.com/maps/api/directions/json?key=
 var origin;
 var destination;
 
-var map;
-var service;
-var infoWindow = new google.maps.InfoWindow();
-var lat;
-var lng;
-var markers = [];
-
 
 function search(event) {
     event.preventDefault();
